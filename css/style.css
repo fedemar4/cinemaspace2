@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* { 	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Helvetica Neue', sans-serif;
+}
+*::selection{
+	background-color: black;
+	color: pink;
+}
+
+h1 { padding: 10px;
+	margin: 10px;
+	color: whitesmoke ;
+ 	font-weight: 700;
+ }
+ li {
+ 	color: whitesmoke;
+ 	font-style: italic;
+ 	font-weight: 500;
+ 	margin: 10px
+ }
+ 
+ a {
+ 	padding-top: 10px;
+    padding-bottom: 10px;
+ 	color: whitesmoke ;
+ 	font-style: oblique;
+ 	text-decoration: none;
+ 	text-align: center;
+ }
+  body {
+  	color: whitesmoke;
+  background-image: url(../imagenes/cine1.jpg);
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ font-style: italic;
+  }
+ img { display: block;
+  margin: 10px;
+ 	border:solid;
+  }
+  iframe {
+  	border:solid;
+  	text-align: center;
+  	margin-left: auto;
+  margin-right: auto;
+  display: block;
+  }
+
+  ul li {
+  padding: 10px;
+ margin: 10px;
+}
+h3{ margin: 10px;
+	color: whitesmoke ;
+ 	font-weight: 250;
+	padding: 10px
+}
+h2{  padding: 10px;
+	margin: 10px;
+	list-style: none;
+	color: whitesmoke ;
+ 	font-weight: 250
+ }
+
+ .caja {
+ 	width: 120px;
+ 	text-align:center;}
+
+
+
+
+.parrafo { margin: 10px;
+	background-color: black;
+}
+
+  
+	.cartelera {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-gap: 20px;
+	  }
+	  
+	  .pelicula {
+		text-align: center;
+	  }
+	  
+	  .pelicula img {
+		width: 100%;
+		height: auto;
+		object-fit: cover;
+	  }
+	  
+	  .pelicula h3 {
+		margin-top: 10px;
+	  }
+	
+	  .presentation {
+		background-image: url('background.jpg');
+		background-size: cover;
+		background-position: center;
+		height: 600px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+	  }
+	  
+	  .container {
+		max-width: 800px;
+	  }
+	  .header1 {
+		font-family: 'Cinzel Decorative', cursive;
+		font-size: 48px;
+		margin: 0;
+	  }
+	  
+	main section  h2 {
+		font-size: 36px;
+		color: #fff;
+		text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+	  }
+	  
+	 main section p {
+		font-size: 24px;
+		color: #fff;
+		margin-bottom: 30px;
+		text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+	  }
+	  
+	
+	.foot1 {
+		background-color: #333;
+		color: #fff;
+		padding: 20px;
+		text-align: center;
+	  }
+	  .cajita {
+		width: 1s;
+		background-color: 10s;
+		transition-property:all ;
+		transition-duration: 1 ;
+		transition-delay: 0 ;
+		transition-timing-function: ease;
+	  }
+	  .cajita1 :hover{
+		width:100%;
+	 background-color: red
+	 
+	  }
+
+
+
+
+
+	  .cajita2 :hover{
+		width:100%;
+	 background-color: blue
+	  }
+	  .noline {
+		text-decoration: none;
+	  }
+	  .logo{
+		width: 50px;
+		display: block;
+	  }
+   
+	  .cajita5 :hover{
+		width:100%;
+	 background-color: green
+	  }
+	  .cajita4 :hover{
+		width:100%;
+	 background-color: pink
+	  }
+	  .cajita3 :hover{
+		width:100%;
+	 background-color: violet
+	  }
+	
+		
+		iframe {
+			width: 100%;
+			height: auto;
+		}
+  
+  
+  
+  
+	.cartelera2 {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-gap: 20px;
+	}
+	
+	.cajita17 {
+		text-align: center;
+	}
+	
+	.cajita17 img {
+		width: 100px;
+		height: auto;
+		object-fit: cover;
+	
+	}
+	
+	.cajita17 h3 {
+		margin-top: 10px;
+	}
+	
+	.cajita17:hover{
+		transform: scale(1.1)
+	}
+	.cartelera17{
+			display: flex;
+			padding: 20px;
+			flex-direction: row ;
+	   
+		}
+.mas {
+	background-color: black;
+}
+
+	 @media only screen and (max-width: 768px) {
+		body {
+		  font-size: 14px; 
+		  background-size: cover; 
+		}
+	  
+		
+		.cartelera {
+		  grid-template-columns: 1fr; 
+		}
+	  
+		.pelicula {
+		  margin: 10px 0;
+		}
+	  
+		
+		h1 {
+		  font-size: 24px;
+		}
+	  
+		h2 {
+		  font-size: 20px;
+		}
+	  
+		h3 {
+		  font-size: 18px;
+		}
+	  
+		
+		.cajita,
+		.cajita1,
+		.cajita2,
+		.cajita3,
+		.cajita4,
+		.cajita5 {
+		  width: 100%;
+		  text-align: center;
+		  padding: 10px;
+		}
+	  }
